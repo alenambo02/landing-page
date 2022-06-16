@@ -1,0 +1,39 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* Element Selectors select all of that element type */
+body {
+    background-color: cornflowerblue;
+    color: honeydew;
+    text-align: center;
+
+}
+header {
+    position: absolute;
+    background-color: green;  
+    width: 100vw;
+    text-align: center;
+    height: 50px;
+    top: 0%;
+}
+
+footer {
+    height: 30px;
+    bottom:0%;
+    position: absolute;
+    background-color: green;  
+    width: 100vw;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
